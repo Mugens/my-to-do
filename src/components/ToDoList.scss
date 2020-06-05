@@ -1,0 +1,57 @@
+.toDoList{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  overflow-y: auto;
+  li{
+    list-style: none;
+    width: 100%;
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border: solid 2px #3A4750;
+    border-radius: 5px;
+
+    font-size: 20px;
+    &:hover{
+      cursor: pointer;
+      background-color: rgba(58, 71, 80, 0.2);
+      text-decoration: line-through;
+    }
+    input{
+      margin-right: 10px;
+    }
+  }
+  .completed{
+    text-decoration: line-through;
+    background-color: rgba(58, 71, 80, 0.2);
+  }
+  &_add{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &-text{
+      width: 72%;
+
+      padding: 10px;
+      border: solid 2px #3A4750;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+    &-btn{
+      width: 27%;
+      border: solid 2px #3A4750;
+      background-color: #3A4750;
+      border-radius: 5px;
+      padding: 0 10px;
+
+      color: #fff;
+      font-weight: bold;
+      font-family: 'Tenali Ramakrishna', sans-serif;
+      font-size: 40px;
+      
+    }
+  }
+}

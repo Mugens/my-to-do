@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tenali+Ramakrishna&display=swap');
+
+h1,h2{
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+
+  background-color:  #EEEEEE;
+  border-radius: 10px;
+  min-width: 320px;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  color:  #3A4750;
+}
